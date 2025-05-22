@@ -23,10 +23,9 @@ class MyApp extends StatelessWidget {
       ),
         title: 'E-commerce Shopping',
         debugShowCheckedModeBanner: false,
-        // إعداد اللغة والاتجاه
-        locale: const Locale('ar', ''), // اللغة العربية
+        locale: const Locale('ar', ''), 
         supportedLocales: const [
-          Locale('ar', ''), // العربية
+          Locale('ar', ''), 
         ],
         localizationsDelegates: const [
           GlobalMaterialLocalizations.delegate,
